@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>"Hello Vue"</title>
+    <meta charset="UTF-8">    
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+  </head>
+  <body>
+    <header>
+      <h1>okimochi-touch</h1>
+    </header>
+    <div id="container">
+      <div id="app">
+        <okimochi-button
+         class="okimochi-button"
+         v-for="item in list"
+         v-bind:key="item.id"
+         v-bind:character="item.character"
+        ></okimochi-button>
+      </div>   
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
