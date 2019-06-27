@@ -1,0 +1,18 @@
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.okimochi-button{
+    width: 90px;
+    height: 90px;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 40px;
+    background-color: springgreen;
+    line-height: 90px;
+}
